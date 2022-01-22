@@ -1,0 +1,8 @@
+POST http://127.0.0.1:5000/api/summarize HTTP/1.1
+Content-Type: application/json
+
+{
+    "video_url":"https://www.youtube.com/watch?v=MMO2c57XHzM"
+}
+
+ 
