@@ -1,0 +1,18 @@
+# created by virtualenv automatically
+
+env/
+
+*.pyc
+__pycache__/
+
+
+.pytest_cache/
+.coverage 
+
+dist/
+build/
+
+
+instance/
+
+requirements.txt

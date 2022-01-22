@@ -33,6 +33,7 @@ def summarizetext():
 def getSummarizedText(transcript):
     # do this
     print(transcript)
+    return ""
 
 
 
