@@ -1,4 +1,4 @@
-POST http://127.0.0.1:5000/api/summarize HTTP/1.1
+POST https://summarizer-api-project.herokuapp.com//api/summarize HTTP/1.1
 Content-Type: application/json
 
 {
