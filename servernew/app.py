@@ -32,8 +32,8 @@ def summarizetext():
 #################### for getting summary #################################
 def getSummarizedText(transcript):
     # do this
-    print(transcript)
-    return ""
+    # print(transcript)
+    return transcript
 
 
 
@@ -43,15 +43,15 @@ def getSummarizedText(transcript):
 
 #################### for getting transcript ######################################
 def getTranscript(video_id):
-    outarr = ""
+    outputStr = ""
     transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['en-IN'])
     
     for i in transcript:
-        outtxt = i['text']
+        outputtxt = i['text']
         # print(outtxt)
-        outarr += outtxt
+        outputStr += outputtxt
 
-    return outarr
+    return outputStr
 
 
 
